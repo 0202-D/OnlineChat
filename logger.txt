@@ -1,1 +1,37 @@
-
+Server started 2022-10-02T12:33:56.717219200Z
+client 50961 accepted
+client 50969 accepted
+Server started 2022-10-02T12:55:54.323174400Z
+Server started 2022-10-02T12:57:12.070114100Z
+client 51159 accepted
+client 51163 accepted
+client 51167 accepted
+client 51171 accepted
+ New participant dima come in chat!
+ New participant sasha come in chat!
+ New participant nina come in chat!
+ New participant vova come in chat!
+ Message for : dima: hi 2022-10-02T12:58:40.523857600Z
+ Message for : vova: also hi 2022-10-02T12:59:01.133458500Z
+ Message for : sasha: i like you 2022-10-02T12:59:28.160253600Z
+nina out of chat
+sasha out of chat
+dima out of chat
+Server started 2022-10-02T13:03:11.489357800Z
+client 51204 accepted
+client 51208 accepted
+ New participant dima come in chat!
+ New participant vova come in chat!
+dima Message for : dima: hi 2022-10-02T13:03:44.565264100Z
+vova Message for : vova: hello 2022-10-02T13:03:57.514094900Z
+dima out of chat
+vova out of chat
+Server started 2022-10-02T13:06:07.207687800Z
+client 51221 accepted
+client 51225 accepted
+ New participant masha come in chat!
+ New participant semen come in chat!
+semen Message for : masha: hello masha 2022-10-02T13:07:18.867249100Z
+masha Message for : semen: hi semen 2022-10-02T13:07:34.628888300Z
+masha out of chat
+semen out of chat

@@ -1,4 +1,4 @@
-package server_side;
+package server;
 
 import java.io.FileWriter;
 import java.io.IOException;

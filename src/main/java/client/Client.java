@@ -11,7 +11,7 @@ public class Client {
     private Scanner inMessage;
     private Scanner writeMessage;
     private PrintWriter outMessage;
-
+    private server.Logger logger = server.Logger.getInstance();
     public Client() {
         try {
             clientSocket = new Socket(SERVER_HOST, setPort());
@@ -19,7 +19,7 @@ public class Client {
             outMessage = new PrintWriter(clientSocket.getOutputStream());
             writeMessage = new Scanner(System.in);
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.log(e.getStackTrace().toString());
         }
 
         new Thread(() -> {
@@ -51,7 +51,7 @@ public class Client {
                 port = Integer.parseInt(line);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.log(e.getStackTrace().toString());
         }
         return port;
     }

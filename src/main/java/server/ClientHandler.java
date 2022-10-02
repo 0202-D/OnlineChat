@@ -3,6 +3,7 @@ package server;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -16,7 +17,7 @@ public class ClientHandler implements Runnable {
     private static List<String> nicks = new ArrayList<>();
     private Scanner sc = new Scanner(System.in);
     private Socket socket;
-
+    private Logger logger = Logger.getInstance();
     public String getNick() {
         return nick;
     }
@@ -49,6 +50,7 @@ public class ClientHandler implements Runnable {
                     String clientMessage = inMessage.nextLine();
                     if (clientMessage.equalsIgnoreCase("/exit")) {
                         server.sendMessageToAllClients(nick + " out of chat");
+                        logger.log(nick + " out of chat "+Instant.now().toString());
                         break;
                     }
                     if (clientMessage.startsWith("/nick")) {
@@ -84,6 +86,7 @@ public class ClientHandler implements Runnable {
                     if (!server.nickNameIsBusy(nick)) {
                         this.nick = nick;
                         server.sendMessageToAllClients(" New participant " + nick + " come in chat!");
+                        logger.log(" New participant " + nick + " come in chat! "+ Instant.now().toString());
                         return;
                     } else {
                         sendMsg("Your nick is busy now. Try later.");

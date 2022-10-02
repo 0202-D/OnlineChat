@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class Server {
     private int port;
-    private server_side.Logger logger;
+    private Logger logger;
     private ArrayList<ClientHandler> clients;
     private Socket clientSocket;
     private ServerSocket serverSocket;
@@ -18,28 +18,28 @@ public class Server {
     public Server() {
 
         try {
-            logger = server_side.Logger.getInstance();
+            logger = Logger.getInstance();
             serverSocket = new ServerSocket(setPort());
             System.out.println("Server started!");
             logger.log("Server started " + Instant.now().toString());
             clients = new ArrayList<>();
             while (true) {
                 clientSocket = serverSocket.accept();
-                logger.log("client " + clientSocket.getPort() + " accepted");
+                logger.log("client " + clientSocket.getPort() + " accepted "+Instant.now().toString());
                 ClientHandler client = new ClientHandler(clientSocket, this);
                 clients.add(client);
                 new Thread(client).start();
             }
-        } catch (IOException ex) {
-            ex.printStackTrace();
+        } catch (IOException e) {
+            logger.log(e.getStackTrace().toString());
         } finally {
             try {
                 clientSocket.close();
                 System.out.println("Server stopped!!");
                 logger.log("server stopped");
                 serverSocket.close();
-            } catch (IOException ex) {
-                ex.printStackTrace();
+            } catch (IOException e) {
+                logger.log(e.getStackTrace().toString());
             }
         }
     }
@@ -55,7 +55,7 @@ public class Server {
             if (clientHandler.getNick().equals(to)) {
                 clientHandler.sendMsg("  You have a message from  " + cH.getNick() + ": " + message);
                 cH.sendMsg(" Message for : " + to + ": " + message);
-                logger.log(" Message for : " + to + ": " + message + " " + Instant.now().toString());
+                logger.log(cH.getNick()+" Message for : " + to + ": " + message + " " + Instant.now().toString());
                 return;
             }
         }
@@ -81,8 +81,12 @@ public class Server {
                 port = Integer.parseInt(line);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.log(e.getStackTrace().toString());
         }
+        return port;
+    }
+
+    public int getPort() {
         return port;
     }
 }
