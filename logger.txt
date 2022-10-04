@@ -201,3 +201,52 @@ ivan Message for : dima: hi 2022-10-04T03:55:13.341972800Z
 marina out of chat 2022-10-04T03:55:23.648261100Z
 dima out of chat 2022-10-04T03:55:28.937586100Z
 ivan out of chat 2022-10-04T03:55:36.316645500Z
+Server started 2022-10-04T19:21:01.042236800
+client 62617 accepted 2022-10-04T19:21:06.671736700
+client 62621 accepted 2022-10-04T19:21:08.781096700
+ New participant oleg come in chat! 2022-10-04T16:21:20.179487600Z
+Index 1 out of bounds for length 1
+Server started 2022-10-04T19:24:12.187196700
+client 62630 accepted 2022-10-04T19:24:15.358733200
+client 62634 accepted 2022-10-04T19:24:27.206909
+ New participant ivan come in chat! 2022-10-04T16:24:36.168050100Z
+ New participant /start come in chat! 2022-10-04T16:24:48.284639600Z
+/start Message for : ivan: hello 2022-10-04T16:25:05.111414Z
+ivan out of chat 2022-10-04T16:25:11.458880600Z
+/start out of chat 2022-10-04T16:25:17.075793600Z
+Server started 2022-10-04T19:37:47.935561900
+client 62878 accepted 2022-10-04T19:37:51.756632600
+client 62882 accepted 2022-10-04T19:37:54.025693100
+client 62886 accepted 2022-10-04T19:37:55.748691800
+ New participant oleg come in chat! 2022-10-04T16:38:03.436351Z
+ New participant dima come in chat! 2022-10-04T16:39:01.992753600Z
+ New participant nina come in chat! 2022-10-04T16:39:12.775761800Z
+Server started 2022-10-04T19:40:39.349696700
+client 62928 accepted 2022-10-04T19:40:42.408605100
+client 62932 accepted 2022-10-04T19:40:44.715371700
+client 62936 accepted 2022-10-04T19:40:47.189544700
+ New participant dima come in chat! 2022-10-04T16:40:54.029680600Z
+ New participant nina come in chat! 2022-10-04T16:41:08.781199700Z
+ New participant lola come in chat! 2022-10-04T16:41:22.828088Z
+dima Message for : lola: hi 2022-10-04T19:42:08.684672300
+Connection refused: connect
+Server started 2022-10-04T19:57:01.059737500
+client 62988 accepted 2022-10-04T19:57:05.267843700
+dimaSend message for all  New participant dima come in chat! 2022-10-04T19:57:10.956161600
+ New participant dima come in chat! 2022-10-04T19:57:10.976125
+dimaSend message for all dima out of chat 2022-10-04T19:57:15.696603200
+dima out of chat 2022-10-04T19:57:15.698625200
+Server started 2022-10-04T20:06:50.158657600
+client 63064 accepted 2022-10-04T20:06:53.419389100
+client 63068 accepted 2022-10-04T20:06:55.865929300
+dimaSend message for all  New participant dima come in chat! 2022-10-04T20:07:01.524673400
+dimaSend message for all  New participant dima come in chat! 2022-10-04T20:07:01.530672700
+ New participant dima come in chat! 2022-10-04T20:07:01.531676400
+vovaSend message for all  New participant vova come in chat! 2022-10-04T20:07:20.347141300
+vovaSend message for all  New participant vova come in chat! 2022-10-04T20:07:20.348148800
+ New participant vova come in chat! 2022-10-04T20:07:20.350153400
+dimaSend message for all dima out of chat 2022-10-04T20:07:27.482045300
+dimaSend message for all dima out of chat 2022-10-04T20:07:27.483050800
+dima out of chat 2022-10-04T20:07:27.484047800
+vovaSend message for all vova out of chat 2022-10-04T20:07:32.581286700
+vova out of chat 2022-10-04T20:07:32.582293300

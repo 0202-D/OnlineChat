@@ -3,7 +3,7 @@ package server;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.Socket;
-import java.time.Instant;
+import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class ClientHandler implements Runnable {
@@ -12,9 +12,9 @@ public class ClientHandler implements Runnable {
     private PrintWriter outMessage;
     private Scanner inMessage;
     private String nick = "administrator";
-    private Scanner sc = new Scanner(System.in);
+    private final Scanner sc = new Scanner(System.in);
     private Socket socket;
-    private Logger logger = Logger.getInstance();
+    private final Logger logger = Logger.getInstance();
     public String getNick() {
         return nick;
     }
@@ -32,13 +32,9 @@ public class ClientHandler implements Runnable {
 
     @Override
     public void run() {
-        try {
+        try{
             while (true) {
-                try {
-                    authentication();
-                } catch (Exception e) {
-                    logger.log(e.getMessage());
-                }
+                authentication();
                 break;
             }
 
@@ -46,16 +42,16 @@ public class ClientHandler implements Runnable {
                 if (inMessage.hasNext()) {
                     String clientMessage = inMessage.nextLine();
                     if (clientMessage.equalsIgnoreCase("/exit")) {
-                        server.sendMessageToAllClients(nick + " out of chat");
-                        server.sendMessageToCloseConnections(this,"/end");
-                        logger.log(nick + " out of chat "+Instant.now().toString());
+                        server.sendMessageToAllClients(this,nick + " out of chat");
+                        server.sendClientToCloseConnection(this,"/end");
+                        logger.log(nick + " out of chat "+ LocalDateTime.now());
                         break;
                     }
                     if (clientMessage.startsWith("/nick")) {
                         String[] array = clientMessage.split("-", 3);
                         server.sendMessageToClients(this, array[1], array[2]);
                     } else {
-                        server.sendMessageToAllClients(clientMessage);
+                        server.sendMessageToAllClients(this,clientMessage);
                     }
                 }
             }
@@ -79,12 +75,12 @@ public class ClientHandler implements Runnable {
             String message = inMessage.nextLine();
             if (message.startsWith("/start")) {
                 String[] arr = message.split("-", 2);
-                final String nick = arr[1];
-                if (nick != null) {
-                    if (!server.nickNameIsBusy(nick)) {
-                        this.nick = nick;
-                        server.sendMessageToAllClients(" New participant " + nick + " come in chat!");
-                        logger.log(" New participant " + nick + " come in chat! "+ Instant.now().toString());
+                final String nickName = arr[1];
+                if (nickName != null) {
+                    if (!server.nickNameIsBusy(nickName)) {
+                        this.nick = nickName;
+                        server.sendMessageToAllClients(this," New participant " + nick + " come in chat!");
+                        logger.log(" New participant " + nick + " come in chat! "+ LocalDateTime.now());
                         return;
                     } else {
                         sendMsg("Your nick is busy now. Try later.");

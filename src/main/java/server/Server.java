@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.time.Instant;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 public class Server {
@@ -21,11 +21,11 @@ public class Server {
             logger = Logger.getInstance();
             serverSocket = new ServerSocket(setPort());
             System.out.println("Server started!");
-            logger.log("Server started " + Instant.now().toString());
+            logger.log("Server started " + LocalDateTime.now());
             clients = new ArrayList<>();
             while (true) {
                 clientSocket = serverSocket.accept();
-                logger.log("client " + clientSocket.getPort() + " accepted "+Instant.now().toString());
+                logger.log("client " + clientSocket.getPort() + " accepted " + LocalDateTime.now());
                 ClientHandler client = new ClientHandler(clientSocket, this);
                 clients.add(client);
                 new Thread(client).start();
@@ -45,25 +45,31 @@ public class Server {
         }
     }
 
-    public synchronized void sendMessageToAllClients(String msg) {
+    public synchronized void sendMessageToAllClients(ClientHandler cH, String msg) {
         for (ClientHandler cl : clients) {
-            cl.sendMsg(msg);
+            if (!cl.getNick().equals(cH.getNick())) {
+                cl.sendMsg(cH.getNick()+" : "+msg);
+            }
+            logger.log(cH.getNick()+"Send message for all "+msg+" "+LocalDateTime.now());
         }
+
     }
-    public synchronized void sendMessageToCloseConnections(ClientHandler CH,String message) {
+
+    public synchronized void sendClientToCloseConnection(ClientHandler cH, String message) {
         for (ClientHandler clientHandler : clients) {
-            if (clientHandler.getNick().equals(CH.getNick())) {
-             clientHandler.sendMsg("/end");
+            if (clientHandler.getNick().equals(cH.getNick())) {
+                clientHandler.sendMsg(message);
                 return;
             }
         }
     }
+
     public synchronized void sendMessageToClients(ClientHandler cH, String to, String message) {
         for (ClientHandler clientHandler : clients) {
             if (clientHandler.getNick().equals(to)) {
                 clientHandler.sendMsg("  You have a message from  " + cH.getNick() + ": " + message);
                 cH.sendMsg(" Message for : " + to + ": " + message);
-                logger.log(cH.getNick()+" Message for : " + to + ": " + message + " " + Instant.now().toString());
+                logger.log(cH.getNick() + " Message for : " + to + ": " + message + " " + LocalDateTime.now());
                 return;
             }
         }
@@ -94,7 +100,4 @@ public class Server {
         return port;
     }
 
-    public int getPort() {
-        return port;
-    }
 }

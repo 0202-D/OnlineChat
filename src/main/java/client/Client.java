@@ -11,8 +11,8 @@ public class Client {
     private Scanner inMessage;
     private Scanner writeMessage;
     private PrintWriter outMessage;
-    private server.Logger logger = server.Logger.getInstance();
-    private boolean isCloseConn;
+    private final server.Logger logger = server.Logger.getInstance();
+    private boolean connectionClose;
     public Client() {
         try {
             clientSocket = new Socket(SERVER_HOST, setPort());
@@ -38,7 +38,7 @@ public class Client {
         new Thread(() -> {
             while (true) {
               sendMsg();
-              if(isCloseConn){
+              if(connectionClose){
                   break;
               }
             }
@@ -48,7 +48,7 @@ public class Client {
     public void sendMsg() {
         String msg = writeMessage.nextLine();
         if(msg.equals("/exit")){
-            isCloseConn=true;
+            connectionClose =true;
         }
         outMessage.println(msg);
         outMessage.flush();
