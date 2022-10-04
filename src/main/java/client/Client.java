@@ -12,6 +12,7 @@ public class Client {
     private Scanner writeMessage;
     private PrintWriter outMessage;
     private server.Logger logger = server.Logger.getInstance();
+    private boolean isCloseConn;
     public Client() {
         try {
             clientSocket = new Socket(SERVER_HOST, setPort());
@@ -26,21 +27,31 @@ public class Client {
             while (true) {
                 if (inMessage.hasNext()) {
                     String inMes = inMessage.nextLine();
-                        System.out.println(inMes);
+                    if (inMes.equals("/end")) {
+                        closeConnection();
+                        break;
                     }
+                    System.out.println(inMes);
                 }
+            }
         }).start();
         new Thread(() -> {
             while (true) {
-                sendMsg();
+              sendMsg();
+              if(isCloseConn){
+                  break;
+              }
             }
         }).start();
     }
+
     public void sendMsg() {
         String msg = writeMessage.nextLine();
+        if(msg.equals("/exit")){
+            isCloseConn=true;
+        }
         outMessage.println(msg);
         outMessage.flush();
-
     }
 
     private int setPort() {
@@ -54,6 +65,17 @@ public class Client {
             logger.log(e.getStackTrace().toString());
         }
         return port;
+    }
+
+    public void closeConnection() {
+        try {
+            clientSocket.close();
+        } catch (IOException e) {
+            logger.log(e.getStackTrace().toString());
+        }
+        inMessage.close();
+        outMessage.close();
+        writeMessage.close();
     }
 }
 

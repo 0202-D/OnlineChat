@@ -35,3 +35,148 @@ semen Message for : masha: hello masha 2022-10-02T13:07:18.867249100Z
 masha Message for : semen: hi semen 2022-10-02T13:07:34.628888300Z
 masha out of chat
 semen out of chat
+Server started 2022-10-02T13:34:54.394804500Z
+[Ljava.lang.StackTraceElement;@531c3726
+Server started 2022-10-02T13:40:12.797411500Z
+client 51512 accepted 2022-10-02T13:40:12.815407Z
+Server started 2022-10-02T16:06:26.294376800Z
+Server started 2022-10-02T16:06:52.986542100Z
+Server started 2022-10-02T16:07:37.685330Z
+Server started 2022-10-02T16:09:25.538282800Z
+Server started 2022-10-02T16:10:20.157147700Z
+Server started 2022-10-02T16:18:23.840198900Z
+client 60560 accepted 2022-10-02T16:18:28.268255500Z
+client 60564 accepted 2022-10-02T16:18:31.624631100Z
+ New participant  ivan come in chat! 2022-10-02T16:18:39.988094300Z
+ New participant  max come in chat! 2022-10-02T16:18:51.202457500Z
+client 60578 accepted 2022-10-02T16:19:43.076809100Z
+client 60582 accepted 2022-10-02T16:19:45.993807500Z
+ New participant ivan come in chat! 2022-10-02T16:19:54.114198600Z
+ New participant dima come in chat! 2022-10-02T16:20:01.720089Z
+dima Message for : ivan: hello 2022-10-02T16:20:14.507934800Z
+dima out of chat 2022-10-02T16:20:23.303766Z
+ivan out of chat 2022-10-02T16:20:29.069919Z
+[Ljava.lang.StackTraceElement;@66b7550d
+[Ljava.lang.StackTraceElement;@4879f0f2
+Server started 2022-10-02T16:54:53.279558300Z
+Server started 2022-10-02T16:55:41.723172900Z
+Server started 2022-10-02T16:57:18.918129200Z
+client 61076 accepted 2022-10-02T16:57:22.461970400Z
+client 61081 accepted 2022-10-02T16:57:30.520678300Z
+ New participant olja come in chat! 2022-10-02T16:57:41.029965800Z
+ New participant marina come in chat! 2022-10-02T16:57:50.936949800Z
+marina Message for : olja: lets meet 2022-10-02T16:58:11.672921600Z
+olja Message for : marina: ok 2022-10-02T16:58:28.375396600Z
+olja out of chat 2022-10-02T16:58:33.303127900Z
+marina out of chat 2022-10-02T16:58:38.563089900Z
+Server started 2022-10-03T18:30:02.533258900Z
+client 59591 accepted 2022-10-03T18:30:05.592711300Z
+client 59595 accepted 2022-10-03T18:30:07.941897900Z
+ New participant dima come in chat! 2022-10-03T18:30:17.280726200Z
+dima out of chat 2022-10-03T18:30:24.515198900Z
+Server started 2022-10-03T18:57:11.520723900Z
+client 60127 accepted 2022-10-03T18:57:16.060580100Z
+ New participant dima come in chat! 2022-10-03T18:57:23.137230Z
+dima out of chat 2022-10-03T18:57:27.348016100Z
+Server started 2022-10-03T18:58:28.859144700Z
+client 60144 accepted 2022-10-03T18:58:32.968486500Z
+ New participant dima come in chat! 2022-10-03T18:58:42.352803500Z
+dima out of chat 2022-10-03T18:58:57.529129200Z
+Server started 2022-10-03T19:03:51.824795600Z
+client 60214 accepted 2022-10-03T19:03:54.939477800Z
+client 60218 accepted 2022-10-03T19:03:58.511416700Z
+client 60222 accepted 2022-10-03T19:04:00.304311800Z
+ New participant dima come in chat! 2022-10-03T19:04:07.052594200Z
+ New participant marina come in chat! 2022-10-03T19:04:14.987492200Z
+ New participant roma come in chat! 2022-10-03T19:04:25.692722600Z
+marina Message for : dima: i love you 2022-10-03T19:04:58.233486200Z
+dima Message for : marina: i love you to 2022-10-03T19:05:17.403608600Z
+dima out of chat 2022-10-03T19:05:23.162565Z
+marina out of chat 2022-10-03T19:05:31.996185500Z
+roma out of chat 2022-10-03T19:05:37.841054900Z
+Server started 2022-10-03T19:07:40.170142500Z
+client 54554 accepted 2022-10-03T19:07:42.042751300Z
+client 54558 accepted 2022-10-03T19:07:43.862755300Z
+ New participant olga come in chat! 2022-10-03T19:07:53.615671500Z
+ New participant semen come in chat! 2022-10-03T19:08:03.928389Z
+semen Message for : olga: hi 2022-10-03T19:08:12.743614500Z
+semen out of chat 2022-10-03T19:08:16.619475500Z
+olga out of chat 2022-10-03T19:08:45.254666300Z
+Server started 2022-10-03T19:10:08.287440500Z
+client 62824 accepted 2022-10-03T19:10:11.756954600Z
+client 62833 accepted 2022-10-03T19:10:59.309004600Z
+[Ljava.lang.StackTraceElement;@312b1dae
+[Ljava.lang.StackTraceElement;@312b1dae
+[Ljava.lang.StackTraceElement;@312b1dae
+Server started 2022-10-03T19:21:08.886030500Z
+Server started 2022-10-03T19:21:40.179940400Z
+client 63164 accepted 2022-10-03T19:21:44.321896900Z
+Server started 2022-10-03T19:21:52.259390700Z
+client 63173 accepted 2022-10-03T19:21:58.262892300Z
+ New participant dima come in chat! 2022-10-03T19:22:38.725582300Z
+dima out of chat 2022-10-03T19:22:55.651419500Z
+client 63190 accepted 2022-10-03T19:24:20.694196100Z
+ New participant dima come in chat! 2022-10-03T19:24:45.925626200Z
+dima out of chat 2022-10-03T19:25:19.424209900Z
+Server started 2022-10-03T19:29:08.714583100Z
+client 63217 accepted 2022-10-03T19:29:11.177584Z
+ New participant dima come in chat! 2022-10-03T19:29:23.598687800Z
+dima out of chat 2022-10-03T19:29:28.006968300Z
+Server started 2022-10-03T19:33:26.932177900Z
+client 63418 accepted 2022-10-03T19:33:28.806921600Z
+ New participant vova come in chat! 2022-10-03T19:33:38.895876700Z
+vova out of chat 2022-10-03T19:33:43.139303700Z
+Server started 2022-10-03T19:35:35.281306400Z
+client 63527 accepted 2022-10-03T19:35:38.206263100Z
+ New participant dima come in chat! 2022-10-03T19:35:44.828338600Z
+dima out of chat 2022-10-03T19:35:49.048899900Z
+Server started 2022-10-03T19:40:51.030805600Z
+client 63816 accepted 2022-10-03T19:40:53.646212500Z
+ New participant dima come in chat! 2022-10-03T19:41:00.135750Z
+dima out of chat 2022-10-03T19:41:12.786680300Z
+client 63862 accepted 2022-10-03T19:43:33.049447200Z
+ New participant dima come in chat! 2022-10-03T19:43:52.446875100Z
+dima out of chat 2022-10-03T19:43:55.874672300Z
+Server started 2022-10-03T19:45:02.096474100Z
+client 63879 accepted 2022-10-03T19:45:04.048473300Z
+ New participant dima come in chat! 2022-10-03T19:45:10.167756700Z
+client 63885 accepted 2022-10-03T19:45:43.981170200Z
+[Ljava.lang.StackTraceElement;@ea375cc
+Server started 2022-10-03T19:49:39.753393100Z
+client 63927 accepted 2022-10-03T19:49:42.784979400Z
+ New participant dima come in chat! 2022-10-03T19:49:49.722706100Z
+dima out of chat 2022-10-03T19:49:53.350892Z
+Server started 2022-10-03T19:53:15.906218100Z
+client 63955 accepted 2022-10-03T19:53:18.105754800Z
+ New participant dima come in chat! 2022-10-03T19:53:23.432298Z
+dima out of chat 2022-10-03T19:53:28.265085400Z
+client 63970 accepted 2022-10-03T19:54:00.815608700Z
+ New participant dima come in chat! 2022-10-03T19:54:07.028382200Z
+dima out of chat 2022-10-03T19:54:10.717557500Z
+client 63985 accepted 2022-10-03T19:55:34.385118400Z
+client 63989 accepted 2022-10-03T19:55:36.415120700Z
+ New participant dima come in chat! 2022-10-03T19:55:42.587284300Z
+ New participant marina come in chat! 2022-10-03T19:55:52.894637300Z
+marina Message for : dima: hello 2022-10-03T19:56:02.453879400Z
+dima out of chat 2022-10-03T19:56:11.326375800Z
+Server started 2022-10-03T19:57:02.180363800Z
+client 64001 accepted 2022-10-03T19:57:07.908885700Z
+ New participant dima come in chat! 2022-10-03T19:57:13.881735600Z
+dima out of chat 2022-10-03T19:57:17.581338200Z
+[Ljava.lang.StackTraceElement;@312b1dae
+Server started 2022-10-03T19:58:19.494742800Z
+client 64020 accepted 2022-10-03T19:58:21.901289600Z
+ New participant dima come in chat! 2022-10-03T19:58:28.993598400Z
+dima out of chat 2022-10-03T19:58:53.827430100Z
+Server started 2022-10-03T19:59:47.095822800Z
+client 64034 accepted 2022-10-03T19:59:49.385824800Z
+ New participant dima come in chat! 2022-10-03T19:59:55.497810500Z
+dima out of chat 2022-10-03T19:59:58.785533500Z
+Server started 2022-10-03T20:04:14.963124800Z
+client 64113 accepted 2022-10-03T20:04:17.697573600Z
+ New participant dima come in chat! 2022-10-03T20:04:30.783493400Z
+dima out of chat 2022-10-03T20:04:36.064491900Z
+Server started 2022-10-04T02:56:57.405733800Z
+client 63550 accepted 2022-10-04T02:57:06.478971800Z
+ New participant dima come in chat! 2022-10-04T02:57:16.353968500Z
+dima out of chat 2022-10-04T02:57:21.807082Z

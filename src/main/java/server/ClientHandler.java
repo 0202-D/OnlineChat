@@ -28,8 +28,8 @@ public class ClientHandler implements Runnable {
             this.server = server;
             this.outMessage = new PrintWriter(socket.getOutputStream());
             this.inMessage = new Scanner(socket.getInputStream());
-        } catch (IOException ex) {
-            ex.printStackTrace();
+        } catch (IOException e) {
+            logger.log(e.getStackTrace().toString());
         }
     }
 
@@ -40,7 +40,7 @@ public class ClientHandler implements Runnable {
                 try {
                     authentication();
                 } catch (Exception e) {
-                    e.printStackTrace();
+                    logger.log(e.getStackTrace().toString());
                 }
                 break;
             }
@@ -50,6 +50,7 @@ public class ClientHandler implements Runnable {
                     String clientMessage = inMessage.nextLine();
                     if (clientMessage.equalsIgnoreCase("/exit")) {
                         server.sendMessageToAllClients(nick + " out of chat");
+                        server.sendMessageToCloseConnections(this,"/end");
                         logger.log(nick + " out of chat "+Instant.now().toString());
                         break;
                     }

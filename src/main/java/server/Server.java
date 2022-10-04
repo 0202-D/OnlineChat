@@ -49,7 +49,14 @@ public class Server {
             cl.sendMsg(msg);
         }
     }
-
+    public synchronized void sendMessageToCloseConnections(ClientHandler CH,String message) {
+        for (ClientHandler clientHandler : clients) {
+            if (clientHandler.getNick().equals(CH.getNick())) {
+             clientHandler.sendMsg("/end");
+                return;
+            }
+        }
+    }
     public synchronized void sendMessageToClients(ClientHandler cH, String to, String message) {
         for (ClientHandler clientHandler : clients) {
             if (clientHandler.getNick().equals(to)) {
@@ -73,7 +80,7 @@ public class Server {
         clients.remove(client);
     }
 
-    private int setPort() {
+    public int setPort() {
         try (FileReader reader = new FileReader("settings.txt");
              BufferedReader br = new BufferedReader(reader)) {
             String line;
