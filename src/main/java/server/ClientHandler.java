@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class ClientHandler implements Runnable {
@@ -14,7 +12,6 @@ public class ClientHandler implements Runnable {
     private PrintWriter outMessage;
     private Scanner inMessage;
     private String nick = "administrator";
-    private static List<String> nicks = new ArrayList<>();
     private Scanner sc = new Scanner(System.in);
     private Socket socket;
     private Logger logger = Logger.getInstance();
@@ -77,7 +74,7 @@ public class ClientHandler implements Runnable {
         }
     }
 
-    public void authentication() throws Exception {
+    public void authentication()  {
         while (true) {
             String message = inMessage.nextLine();
             if (message.startsWith("/start")) {

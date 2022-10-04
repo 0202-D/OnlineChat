@@ -190,3 +190,14 @@ client 64886 accepted 2022-10-04T03:47:58.579965300Z
 dima Message for : marina: hello 2022-10-04T03:48:59.169978900Z
 marina out of chat 2022-10-04T03:49:17.369269800Z
 dima out of chat 2022-10-04T03:49:24.262031300Z
+Server started 2022-10-04T03:54:21.906487500Z
+client 64997 accepted 2022-10-04T03:54:24.102504200Z
+client 65003 accepted 2022-10-04T03:54:27.097817100Z
+ New participant dima come in chat! 2022-10-04T03:54:35.842546300Z
+ New participant marina come in chat! 2022-10-04T03:54:48.570936200Z
+client 65029 accepted 2022-10-04T03:54:51.669899300Z
+ New participant ivan come in chat! 2022-10-04T03:55:02.297170600Z
+ivan Message for : dima: hi 2022-10-04T03:55:13.341972800Z
+marina out of chat 2022-10-04T03:55:23.648261100Z
+dima out of chat 2022-10-04T03:55:28.937586100Z
+ivan out of chat 2022-10-04T03:55:36.316645500Z
