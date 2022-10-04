@@ -31,7 +31,7 @@ public class Server {
                 new Thread(client).start();
             }
         } catch (IOException e) {
-            logger.log(e.getStackTrace().toString());
+            logger.log(e.getMessage());
         } finally {
             try {
                 clientSocket.close();
@@ -39,7 +39,8 @@ public class Server {
                 logger.log("server stopped");
                 serverSocket.close();
             } catch (IOException e) {
-                logger.log(e.getStackTrace().toString());
+                logger.log(e.getMessage());
+
             }
         }
     }
@@ -88,7 +89,7 @@ public class Server {
                 port = Integer.parseInt(line);
             }
         } catch (IOException e) {
-            logger.log(e.getStackTrace().toString());
+            logger.log(e.getMessage());
         }
         return port;
     }

@@ -20,7 +20,7 @@ public class Client {
             outMessage = new PrintWriter(clientSocket.getOutputStream());
             writeMessage = new Scanner(System.in);
         } catch (IOException e) {
-            logger.log(e.getStackTrace().toString());
+            logger.log(e.getMessage());
         }
 
         new Thread(() -> {
@@ -62,7 +62,7 @@ public class Client {
                 port = Integer.parseInt(line);
             }
         } catch (IOException e) {
-            logger.log(e.getStackTrace().toString());
+            logger.log(e.getMessage());
         }
         return port;
     }
@@ -71,7 +71,7 @@ public class Client {
         try {
             clientSocket.close();
         } catch (IOException e) {
-            logger.log(e.getStackTrace().toString());
+            logger.log(e.getMessage());
         }
         inMessage.close();
         outMessage.close();

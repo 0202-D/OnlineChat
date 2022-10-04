@@ -180,3 +180,13 @@ Server started 2022-10-04T02:56:57.405733800Z
 client 63550 accepted 2022-10-04T02:57:06.478971800Z
  New participant dima come in chat! 2022-10-04T02:57:16.353968500Z
 dima out of chat 2022-10-04T02:57:21.807082Z
+Connection refused: connect
+Connection refused: connect
+Server started 2022-10-04T03:47:45.059824300Z
+client 64882 accepted 2022-10-04T03:47:55.172372700Z
+client 64886 accepted 2022-10-04T03:47:58.579965300Z
+ New participant dima come in chat! 2022-10-04T03:48:25.668612Z
+ New participant marina come in chat! 2022-10-04T03:48:41.356736Z
+dima Message for : marina: hello 2022-10-04T03:48:59.169978900Z
+marina out of chat 2022-10-04T03:49:17.369269800Z
+dima out of chat 2022-10-04T03:49:24.262031300Z

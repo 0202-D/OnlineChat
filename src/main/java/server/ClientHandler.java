@@ -29,7 +29,7 @@ public class ClientHandler implements Runnable {
             this.outMessage = new PrintWriter(socket.getOutputStream());
             this.inMessage = new Scanner(socket.getInputStream());
         } catch (IOException e) {
-            logger.log(e.getStackTrace().toString());
+            logger.log(e.getMessage());
         }
     }
 
@@ -40,7 +40,7 @@ public class ClientHandler implements Runnable {
                 try {
                     authentication();
                 } catch (Exception e) {
-                    logger.log(e.getStackTrace().toString());
+                    logger.log(e.getMessage());
                 }
                 break;
             }
@@ -72,8 +72,8 @@ public class ClientHandler implements Runnable {
         try {
             outMessage.println(msg);
             outMessage.flush();
-        } catch (Exception ex) {
-            ex.printStackTrace();
+        } catch (Exception e) {
+            logger.log(e.getMessage());
         }
     }
 
@@ -104,7 +104,7 @@ public class ClientHandler implements Runnable {
         try {
             socket.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.log(e.getMessage());
         }
         outMessage.close();
         sc.close();
