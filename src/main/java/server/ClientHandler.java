@@ -15,6 +15,7 @@ public class ClientHandler implements Runnable {
     private final Scanner sc = new Scanner(System.in);
     private Socket socket;
     private final Logger logger = Logger.getInstance();
+
     public String getNick() {
         return nick;
     }
@@ -32,26 +33,22 @@ public class ClientHandler implements Runnable {
 
     @Override
     public void run() {
-        try{
-            while (true) {
-                authentication();
-                break;
-            }
-
+        try {
+            authentication();
             while (true) {
                 if (inMessage.hasNext()) {
                     String clientMessage = inMessage.nextLine();
                     if (clientMessage.equalsIgnoreCase("/exit")) {
-                        server.sendMessageToAllClients(this,nick + " out of chat");
-                        server.sendClientToCloseConnection(this,"/end");
-                        logger.log(nick + " out of chat "+ LocalDateTime.now());
+                        server.sendMessageToAllClients(this, nick + " out of chat");
+                        server.sendClientToCloseConnection(this, "/end");
+                        logger.log(nick + " out of chat " + LocalDateTime.now());
                         break;
                     }
                     if (clientMessage.startsWith("/nick")) {
                         String[] array = clientMessage.split("-", 3);
                         server.sendMessageToClients(this, array[1], array[2]);
                     } else {
-                        server.sendMessageToAllClients(this,clientMessage);
+                        server.sendMessageToAllClients(this, clientMessage);
                     }
                 }
             }
@@ -70,7 +67,7 @@ public class ClientHandler implements Runnable {
         }
     }
 
-    public void authentication()  {
+    public void authentication() {
         while (true) {
             String message = inMessage.nextLine();
             if (message.startsWith("/start")) {
@@ -79,8 +76,8 @@ public class ClientHandler implements Runnable {
                 if (nickName != null) {
                     if (!server.nickNameIsBusy(nickName)) {
                         this.nick = nickName;
-                        server.sendMessageToAllClients(this," New participant " + nick + " come in chat!");
-                        logger.log(" New participant " + nick + " come in chat! "+ LocalDateTime.now());
+                        server.sendMessageToAllClients(this, " New participant " + nick + " come in chat!");
+                        logger.log(" New participant " + nick + " come in chat! " + LocalDateTime.now());
                         return;
                     } else {
                         sendMsg("Your nick is busy now. Try later.");

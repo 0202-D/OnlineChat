@@ -50,7 +50,7 @@ public class Server {
             if (!cl.getNick().equals(cH.getNick())) {
                 cl.sendMsg(cH.getNick()+" : "+msg);
             }
-            logger.log(cH.getNick()+"Send message for all "+msg+" "+LocalDateTime.now());
+            logger.log(cH.getNick()+" Send message for all "+msg+" "+LocalDateTime.now());
         }
 
     }

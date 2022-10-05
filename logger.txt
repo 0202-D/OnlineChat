@@ -250,3 +250,48 @@ dimaSend message for all dima out of chat 2022-10-04T20:07:27.483050800
 dima out of chat 2022-10-04T20:07:27.484047800
 vovaSend message for all vova out of chat 2022-10-04T20:07:32.581286700
 vova out of chat 2022-10-04T20:07:32.582293300
+Server started 2022-10-05T19:46:40.232108400
+client 51823 accepted 2022-10-05T19:46:46.112109700
+client 51827 accepted 2022-10-05T19:46:50.127104200
+sidSend message for all  New participant sid come in chat! 2022-10-05T19:47:04.140226900
+sidSend message for all  New participant sid come in chat! 2022-10-05T19:47:04.170227100
+ New participant sid come in chat! 2022-10-05T19:47:04.171220800
+marySend message for all  New participant mary come in chat! 2022-10-05T19:47:13.973011400
+marySend message for all  New participant mary come in chat! 2022-10-05T19:47:13.976011100
+ New participant mary come in chat! 2022-10-05T19:47:13.978024700
+mary Message for : sid: hi 2022-10-05T19:47:33.047342500
+sidSend message for all sid out of chat 2022-10-05T19:47:38.881042200
+sidSend message for all sid out of chat 2022-10-05T19:47:38.883041800
+sid out of chat 2022-10-05T19:47:38.885086500
+marySend message for all mary out of chat 2022-10-05T19:47:43.880508400
+mary out of chat 2022-10-05T19:47:43.882504600
+Server started 2022-10-05T19:52:35.120028200
+client 51943 accepted 2022-10-05T19:52:38.384928800
+client 51951 accepted 2022-10-05T19:53:34.250805200
+client 51982 accepted 2022-10-05T19:55:02.858506400
+Server started 2022-10-05T19:55:35.873367100
+client 51993 accepted 2022-10-05T19:55:39.285394100
+Server started 2022-10-05T19:56:34.834569700
+client 52003 accepted 2022-10-05T19:56:39.139617600
+Server started 2022-10-05T19:57:26.127562200
+client 52013 accepted 2022-10-05T19:57:31.942529
+Server started 2022-10-05T19:58:19.453755400
+client 52026 accepted 2022-10-05T19:58:23.139838100
+Server started 2022-10-05T19:59:59.242087700
+client 52036 accepted 2022-10-05T20:00:02.262259300
+Server started 2022-10-05T20:01:45.183549700
+client 52055 accepted 2022-10-05T20:01:48.062129900
+Server started 2022-10-05T20:02:25.803264700
+client 52065 accepted 2022-10-05T20:02:30.729438700
+Server started 2022-10-05T20:03:19.209604400
+client 52074 accepted 2022-10-05T20:03:22.271983100
+Server started 2022-10-05T20:04:06.756487300
+client 52083 accepted 2022-10-05T20:04:11.613569400
+Server started 2022-10-05T20:05:55.231703600
+client 52108 accepted 2022-10-05T20:05:58.146560900
+Server started 2022-10-05T20:06:29.962164300
+client 52116 accepted 2022-10-05T20:06:33.432464300
+Server started 2022-10-05T20:07:16.192178
+client 52134 accepted 2022-10-05T20:07:19.496922600
+Server started 2022-10-05T20:07:44.935712100
+client 52142 accepted 2022-10-05T20:07:47.872530600
