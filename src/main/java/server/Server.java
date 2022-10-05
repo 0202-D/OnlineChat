@@ -48,11 +48,10 @@ public class Server {
     public synchronized void sendMessageToAllClients(ClientHandler cH, String msg) {
         for (ClientHandler cl : clients) {
             if (!cl.getNick().equals(cH.getNick())) {
-                cl.sendMsg(cH.getNick()+" : "+msg);
+                cl.sendMsg(cH.getNick() + " : " + msg);
             }
-            logger.log(cH.getNick()+" Send message for all "+msg+" "+LocalDateTime.now());
         }
-
+        logger.log(cH.getNick() + " send message for all " + msg + " " + LocalDateTime.now());
     }
 
     public synchronized void sendClientToCloseConnection(ClientHandler cH, String message) {

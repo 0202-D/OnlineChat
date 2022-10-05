@@ -295,3 +295,79 @@ Server started 2022-10-05T20:07:16.192178
 client 52134 accepted 2022-10-05T20:07:19.496922600
 Server started 2022-10-05T20:07:44.935712100
 client 52142 accepted 2022-10-05T20:07:47.872530600
+Server started 2022-10-05T20:19:01.639604300
+client 52460 accepted 2022-10-05T20:19:05.288571100
+client 52464 accepted 2022-10-05T20:19:08.333188
+client 52469 accepted 2022-10-05T20:19:11.379801300
+arnold Send message for all  New participant arnold come in chat! 2022-10-05T20:19:21.836747700
+arnold Send message for all  New participant arnold come in chat! 2022-10-05T20:19:21.849754600
+arnold Send message for all  New participant arnold come in chat! 2022-10-05T20:19:21.851744900
+ New participant arnold come in chat! 2022-10-05T20:19:21.852749
+silvestr Send message for all  New participant silvestr come in chat! 2022-10-05T20:19:32.825318300
+silvestr Send message for all  New participant silvestr come in chat! 2022-10-05T20:19:32.827326600
+silvestr Send message for all  New participant silvestr come in chat! 2022-10-05T20:19:32.829335700
+ New participant silvestr come in chat! 2022-10-05T20:19:32.831332600
+chuck Send message for all  New participant chuck come in chat! 2022-10-05T20:19:47.908542500
+chuck Send message for all  New participant chuck come in chat! 2022-10-05T20:19:47.910548700
+chuck Send message for all  New participant chuck come in chat! 2022-10-05T20:19:47.913547400
+ New participant chuck come in chat! 2022-10-05T20:19:47.914549100
+chuck Message for : arnold: you looser 2022-10-05T20:20:05.233067500
+arnold Message for : chuck: i am the best 2022-10-05T20:20:26.174740400
+silvestr Send message for all everybody sucks 2022-10-05T20:20:45.333238100
+silvestr Send message for all everybody sucks 2022-10-05T20:20:45.336260900
+silvestr Send message for all everybody sucks 2022-10-05T20:20:45.338260400
+silvestr Send message for all silvestr out of chat 2022-10-05T20:20:48.437382
+silvestr Send message for all silvestr out of chat 2022-10-05T20:20:48.439366300
+silvestr Send message for all silvestr out of chat 2022-10-05T20:20:48.440374
+silvestr out of chat 2022-10-05T20:20:48.442367900
+chuck Send message for all chuck out of chat 2022-10-05T20:20:53.875297400
+chuck Send message for all chuck out of chat 2022-10-05T20:20:53.877306600
+chuck out of chat 2022-10-05T20:20:53.879307
+arnold Send message for all arnold out of chat 2022-10-05T20:20:59.732029200
+arnold out of chat 2022-10-05T20:20:59.733011700
+Server started 2022-10-05T20:23:16.231568700
+client 52544 accepted 2022-10-05T20:23:19.176756
+client 52549 accepted 2022-10-05T20:23:22.554558900
+mick Send message for all  New participant mick come in chat! 2022-10-05T20:23:32.691160
+ New participant mick come in chat! 2022-10-05T20:23:32.703166
+corey Send message for all  New participant corey come in chat! 2022-10-05T20:23:41.531984400
+ New participant corey come in chat! 2022-10-05T20:23:41.533994600
+corey Send message for all hi 2022-10-05T20:23:46.587995100
+corey Send message for all corey out of chat 2022-10-05T20:23:50.298126900
+corey out of chat 2022-10-05T20:23:50.300119100
+mick Send message for all mick out of chat 2022-10-05T20:23:58.813432500
+mick out of chat 2022-10-05T20:23:58.815472200
+Server started 2022-10-05T20:26:58.246414300
+client 52641 accepted 2022-10-05T20:27:01.373382100
+dima Send message for all  New participant dima come in chat! 2022-10-05T20:27:11.293368300
+ New participant dima come in chat! 2022-10-05T20:27:11.312360800
+client 52653 accepted 2022-10-05T20:27:15.061890
+masha Send message for all  New participant masha come in chat! 2022-10-05T20:27:21.449567400
+ New participant masha come in chat! 2022-10-05T20:27:21.451567900
+dima Send message for all hello 2022-10-05T20:27:28.990464800
+dima Send message for all dima bye! 2022-10-05T20:27:32.225637
+dima out of chat 2022-10-05T20:27:32.227642600
+masha Send message for all masha bye! 2022-10-05T20:27:44.562059200
+masha out of chat 2022-10-05T20:27:44.564056600
+client 52746 accepted 2022-10-05T20:29:08.466606300
+felix Send message for all  New participant felix come in chat! 2022-10-05T20:29:19.788497
+ New participant felix come in chat! 2022-10-05T20:29:19.791493700
+client 52760 accepted 2022-10-05T20:29:25.164490900
+max Send message for all  New participant max come in chat! 2022-10-05T20:29:31.658791600
+ New participant max come in chat! 2022-10-05T20:29:31.660811900
+max Send message for all max bye! 2022-10-05T20:29:34.563103100
+max out of chat 2022-10-05T20:29:34.566110800
+felix Send message for all felix bye! 2022-10-05T20:30:01.513361500
+felix out of chat 2022-10-05T20:30:01.514363500
+Server started 2022-10-05T20:31:19.229469500
+client 52858 accepted 2022-10-05T20:31:22.276076800
+client 52862 accepted 2022-10-05T20:31:25.309770800
+max Send message for all  New participant max come in chat! 2022-10-05T20:31:35.850590800
+ New participant max come in chat! 2022-10-05T20:31:35.863596200
+ben Send message for all  New participant ben come in chat! 2022-10-05T20:31:50.977499900
+ New participant ben come in chat! 2022-10-05T20:31:50.979526100
+ben Send message for all hello 2022-10-05T20:31:53.938230400
+ben Send message for all  I'm exiting the chat 2022-10-05T20:31:57.555189
+ben out of chat 2022-10-05T20:31:57.557200400
+max Send message for all  I'm exiting the chat 2022-10-05T20:32:06.214099800
+max out of chat 2022-10-05T20:32:06.216109400
