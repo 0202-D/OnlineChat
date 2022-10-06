@@ -25,3 +25,86 @@ max send message for all everybody home? 2022-10-05T20:43:19.094628700
 max send message for all  I'm exiting the chat 2022-10-05T20:43:24.688211800
 max out of chat 2022-10-05T20:43:24.691214900
 Connection refused: connect
+Server started 2022-10-05T20:58:20.035636700
+client 53690 accepted 2022-10-05T20:58:23.398112500
+client 53702 accepted 2022-10-05T20:59:05.423638800
+Server started 2022-10-05T21:00:19.760152700
+client 53719 accepted 2022-10-05T21:00:22.927801800
+client 53725 accepted 2022-10-05T21:00:59.995189300
+Connection refused: connect
+Server started 2022-10-05T21:02:46.333412800
+client 53749 accepted 2022-10-05T21:02:50.866053400
+Server started 2022-10-05T21:04:07.965938400
+Server started 2022-10-05T21:04:22.611670400
+client 53765 accepted 2022-10-05T21:04:25.855126200
+Server started 2022-10-05T21:06:09.338399500
+client 53782 accepted 2022-10-05T21:06:12.524396900
+Server started 2022-10-05T21:08:29.756065500
+client 53806 accepted 2022-10-05T21:08:32.894502500
+client 53810 accepted 2022-10-05T21:08:35.812429500
+client 53814 accepted 2022-10-05T21:08:39.131226600
+serg send message for all  New participant serg come in chat! 2022-10-05T21:08:45.655519700
+ New participant serg come in chat! 2022-10-05T21:08:45.667526900
+ivan send message for all  New participant ivan come in chat! 2022-10-05T21:08:55.585976500
+ New participant ivan come in chat! 2022-10-05T21:08:55.588980200
+ivan send message for all hello 2022-10-05T21:09:00.947712500
+ Waiting time - 30 sec is over. You have been disconnected from the server
+ivan Message for : serg: hi 2022-10-05T21:09:12.186208500
+ivan send message for all  I'm exiting the chat 2022-10-05T21:10:44.270408900
+ivan out of chat 2022-10-05T21:10:44.273412300
+serg send message for all  I'm exiting the chat 2022-10-05T21:10:51.127861600
+serg out of chat 2022-10-05T21:10:51.130870200
+Server started 2022-10-05T21:13:55.429633500
+client 53827 accepted 2022-10-05T21:13:59.220755400
+ivan send message for all  New participant ivan come in chat! 2022-10-05T21:14:07.364778800
+ New participant ivan come in chat! 2022-10-05T21:14:07.382783400
+ivan send message for all  I'm exiting the chat 2022-10-05T21:14:10.633815900
+ivan out of chat 2022-10-05T21:14:10.635829200
+Server started 2022-10-06T18:54:42.233290500
+client 50330 accepted 2022-10-06T18:54:45.595961800
+client 50334 accepted 2022-10-06T18:54:48.866553300
+client 50339 accepted 2022-10-06T18:54:52.809258200
+ivan send message for all  New participant ivan come in chat! 2022-10-06T18:55:02.004356300
+ New participant ivan come in chat! 2022-10-06T18:55:02.029692400
+serg send message for all  New participant serg come in chat! 2022-10-06T18:55:23.414803200
+ New participant serg come in chat! 2022-10-06T18:55:23.416830
+serg Message for : ivan: ok 2022-10-06T18:58:02.069995400
+ivan Message for : serg: okay 2022-10-06T18:58:16.545566300
+ivan send message for all  I'm exiting the chat 2022-10-06T18:58:20.028464100
+ivan out of chat 2022-10-06T18:58:20.032397800
+serg send message for all  I'm exiting the chat 2022-10-06T18:58:25.687212400
+serg out of chat 2022-10-06T18:58:25.689212500
+Server started 2022-10-06T18:59:43.991681400
+Server started 2022-10-06T18:59:50.963216500
+client 50358 accepted 2022-10-06T19:00:02.291287900
+Address already in use: bind
+Address already in use: bind
+Address already in use: bind
+Address already in use: bind
+Address already in use: bind
+Address already in use: bind
+Address already in use: bind
+Server started 2022-10-06T19:12:22.293653
+Connection refused: connect
+Connection refused: connect
+Connection refused: connect
+Connection refused: connect
+Server started 2022-10-06T19:15:30.360330200
+client 50684 accepted 2022-10-06T19:15:36.825656600
+client 50688 accepted 2022-10-06T19:15:43.233746
+client 50692 accepted 2022-10-06T19:15:46.532632500
+Connection refused: connect
+Connection refused: connect
+Server started 2022-10-06T19:17:24.559896
+client 50710 accepted 2022-10-06T19:17:27.528944200
+client 50714 accepted 2022-10-06T19:17:30.762846200
+mom send message for all  New participant mom come in chat! 2022-10-06T19:17:37.892617500
+ New participant mom come in chat! 2022-10-06T19:17:37.906625900
+dad send message for all  New participant dad come in chat! 2022-10-06T19:17:46.630069800
+ New participant dad come in chat! 2022-10-06T19:17:46.632072500
+dad Message for : mom: privet 2022-10-06T19:17:55.829285600
+mom Message for : dad: poka 2022-10-06T19:18:12.594759600
+mom send message for all  I'm exiting the chat 2022-10-06T19:18:17.373400200
+mom out of chat 2022-10-06T19:18:17.376402100
+dad send message for all  I'm exiting the chat 2022-10-06T19:18:22.988375800
+dad out of chat 2022-10-06T19:18:22.990376800

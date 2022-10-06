@@ -39,7 +39,7 @@ public class ClientHandler implements Runnable {
                 if (inMessage.hasNext()) {
                     String clientMessage = inMessage.nextLine();
                     if (clientMessage.equalsIgnoreCase("/exit")) {
-                        server.sendMessageToAllClients(this,  " I'm exiting the chat");
+                        server.sendMessageToAllClients(this, " I'm exiting the chat");
                         server.sendClientToCloseConnection(this, "/end");
                         logger.log(nick + " out of chat " + LocalDateTime.now());
                         break;

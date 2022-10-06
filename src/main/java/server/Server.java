@@ -55,12 +55,7 @@ public class Server {
     }
 
     public synchronized void sendClientToCloseConnection(ClientHandler cH, String message) {
-        for (ClientHandler clientHandler : clients) {
-            if (clientHandler.getNick().equals(cH.getNick())) {
-                clientHandler.sendMsg(message);
-                return;
-            }
-        }
+        cH.sendMsg(message);
     }
 
     public synchronized void sendMessageToClients(ClientHandler cH, String to, String message) {
