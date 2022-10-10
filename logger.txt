@@ -108,3 +108,15 @@ mom send message for all  I'm exiting the chat 2022-10-06T19:18:17.373400200
 mom out of chat 2022-10-06T19:18:17.376402100
 dad send message for all  I'm exiting the chat 2022-10-06T19:18:22.988375800
 dad out of chat 2022-10-06T19:18:22.990376800
+Server started 2022-10-10T20:27:27.228243
+client 57442 accepted 2022-10-10T20:27:31.170416600
+max send message for all  New participant max come in chat! 2022-10-10T20:27:37.994358800
+ New participant max come in chat! 2022-10-10T20:27:38.021353200
+client 57446 accepted 2022-10-10T20:27:41.780980600
+ivan send message for all  New participant ivan come in chat! 2022-10-10T20:27:49.498136
+ New participant ivan come in chat! 2022-10-10T20:27:49.501146500
+max Message for : ivan: hi 2022-10-10T20:28:00.986429700
+ivan send message for all  I'm exiting the chat 2022-10-10T20:28:07.494815100
+ivan out of chat 2022-10-10T20:28:07.496814400
+max send message for all  I'm exiting the chat 2022-10-10T20:28:12.951155600
+max out of chat 2022-10-10T20:28:12.953181100

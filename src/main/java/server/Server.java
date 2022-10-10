@@ -16,7 +16,9 @@ public class Server {
     private ServerSocket serverSocket;
 
     public Server() {
+    }
 
+    public void init() {
         try {
             logger = Logger.getInstance();
             serverSocket = new ServerSocket(setPort());
